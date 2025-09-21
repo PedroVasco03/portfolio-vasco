@@ -1,10 +1,19 @@
 import Image from "next/image";
+import { redirect } from "next/navigation";
 import RootLayout from "./layout";
+import HomePage from "./home/Page";
+
+const isMaintenance = process.env.NEXT_PUBLIC_MAINTENANCE === "true";
+
 
 export default function Home() {
-  return (
-    <RootLayout>
-        <><h1>Home Page</h1></>
-    </RootLayout>
-  );
+  if (isMaintenance) {
+    redirect("/dev");
+  }else{
+    return (
+      <RootLayout>
+          <HomePage/>
+      </RootLayout>
+    );
+  }
 }
