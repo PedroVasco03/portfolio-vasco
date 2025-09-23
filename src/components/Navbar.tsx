@@ -22,12 +22,12 @@ const NavBar = () => {
 
     return(
         <nav className="navbar mb-5">
-            <div className="nav-inner container">
+            <div className="nav-inner ">
                 <div className="brand">
-                <div className="logo" aria-hidden>
-                    PV
-                </div>
-                <div style={{ marginLeft: "6px" }} className="txt text-[#94a3b8]">I`M VASCO</div>
+                  <div className="logo" aria-hidden>
+                      PV
+                  </div>
+                  <div style={{ marginLeft: "6px" }} className="txt text-[#94a3b8]">I`M VASCO</div>
                 </div>
 
                 {/* botão só no mobile */}

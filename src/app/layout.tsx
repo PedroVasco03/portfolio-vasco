@@ -4,8 +4,11 @@ import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Portifolio Pedro Vasco",
+  title: "Portfólio - Pedro Vasco",
   description: "Desenvolvido por Pedro Vasco",
+  icons: {
+    icon: "/images/logo.png", 
+  },
 };
 
 type LayoutProps = {
