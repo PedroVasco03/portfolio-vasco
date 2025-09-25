@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 
 const NavBar = () => {
 
+  
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -21,7 +22,7 @@ const NavBar = () => {
 
 
     return(
-        <nav className="navbar mb-5">
+        <nav className="navbar mb-5 bg-[#00191E]/80">
             <div className="nav-inner ">
                 <div className="brand">
                   <div className="logo" aria-hidden>

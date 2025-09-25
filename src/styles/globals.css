@@ -39,7 +39,6 @@ body {
   z-index: 2000; 
   display: flex;
   padding: 15px 50px;
-  background-color: #00191E; 
   font-family: 'Arial', sans-serif;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
