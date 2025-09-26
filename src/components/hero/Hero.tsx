@@ -18,7 +18,7 @@ const Hero = () => {
                    
                 </div>
                 <div className="hero-btns">
-                    <Link href="/">
+                    <Link href="/projects">
                         <Button variant="primary">Meus projetos</Button>
                     </Link>
                     <Link href="/contact">
