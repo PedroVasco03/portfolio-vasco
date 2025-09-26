@@ -1,13 +1,14 @@
 import Image from "next/image"
 import { Atom, Trophy, Zap} from 'lucide-react';
-import HeroIMG from "../../public/images/I.jpg"
+import HeroIMG from "../../../public/images/I.jpg"
 import Link from "next/link"
-import Button from "./UI/Button"
+import Button from "../UI/Button"
 
 const Hero = () => {
   return (
     <section className="hero">
         <div className="hero-inner">
+            
             <div className="left-content">
                 <div className="hero-txt">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Olá, sou Pedro Vasco<br /> <span className="text-[#50C878]">Desenvolvedor Web</span></h1>
@@ -48,6 +49,7 @@ const Hero = () => {
                     
                 </div>
             </div>
+            
             
         </div>
     </section>

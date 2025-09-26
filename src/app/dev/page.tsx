@@ -1,6 +1,7 @@
 import Head from "next/head"
 import "./maintenance.css"
 import Button from "@/components/UI/Button"
+import Image from "next/image"
 
 const MaintenancePage = () => {
   return (
@@ -21,6 +22,13 @@ const MaintenancePage = () => {
           <Button variant="secondary">Percebido</Button>
           <Button variant="outline">Percebido</Button>
           <Button variant="ghost">Percebido</Button>
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" /> <small>CSS</small>
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
+                <Image src="/images/test.png"  width={38} height={38} alt="teste" />
         </div>
       </main>
     </>
