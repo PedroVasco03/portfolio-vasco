@@ -27,8 +27,8 @@ export const brandLogos = [
 
 const Experience = () => {
   return (
-    <div className="content py-10 md:py-25 flex flex-col  items-center px-2">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10  text-center ">
+    <div className="content py-0 md:py-25 flex flex-col max-md:mb-8 items-center px-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-10  text-center ">
         <h2 className="col-span-1 md:col-span-2 lg:col-span-3 md:font-semibold text-3xl sm:text-4xl md:text-5xl font-medium text-[#EAEAEA]  mb-6">Conhecimento Técnico</h2>
         <p className="col-span-1  text-[14px] sm:text-lg text-[#A9B5B5] font-normal h-full w-full text-justify">
           Tenho experiência em desenvolvimento web e desktop, 

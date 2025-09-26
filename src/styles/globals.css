@@ -17,12 +17,33 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --background: #ffffff;
-    --foreground: #171717;
-  }
-} */
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #00191E; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5CF28E;   
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5CF28E;    
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #5CF28E #00191E;
+}
+
 
 body {
   background: var(--background);
