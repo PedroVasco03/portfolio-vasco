@@ -1,3 +1,4 @@
+import Contact from "@/components/contact/Contact";
 import Experience from "@/components/experience/Experience";
 import Hero from "@/components/hero/Hero";
 import Profession from "@/components/profession/Profession";
@@ -17,6 +18,8 @@ export default function Home() {
         <Profession/>
         <div className="bg-[#00191E]"><WorkTogether/></div>
         <Experience/>
+        <Contact />
+        
       </>
     );
   }

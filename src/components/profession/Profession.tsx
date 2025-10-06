@@ -1,3 +1,4 @@
+import "./profession.css";
 import Button from "../UI/Button";
 import Roles from "./Roles";
 
@@ -32,7 +33,7 @@ const Profession = () => {
         <p className="md:font-semibold text-3xl sm:text-4xl md:text-5xl font-medium max-md:text-center">O que eu faço?</p>
         <div className="mt-6 text-[14px]">
           <p className="text-xs sm:text-lg font-normal text-gray-400 mb-4">
-            Sou especialista em criar interfaces modernas, responsivas e intuitivas, 
+            Sou <span className="bg-highlight">Especialista</span> em criar interfaces modernas, responsivas e intuitivas, 
             focadas na melhor experiência do usuário.
           </p>
           <p className="text-xs sm:text-lg font-normal text-gray-400">
