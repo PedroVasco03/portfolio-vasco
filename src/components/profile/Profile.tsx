@@ -37,7 +37,7 @@ const Profile: React.FC = () => {
           </div>
 
           <div className="max-sm:w-full w-[33rem]">
-            <h2 className="text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8">
+            <h2 className="text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] text-center font-semibold mb-8">
               Eu sou um Desenvolvedor Júnior
             </h2>
 
