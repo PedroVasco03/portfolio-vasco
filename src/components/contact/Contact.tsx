@@ -24,9 +24,9 @@ const addressData: AddressItem[] = [
   },
 ];
 
-const Contact: React.FC = () => {
+const ContactSection: React.FC = () => {
   return (
-    <div className="relative w-full pt-10 flex justify-center align-center  p-5   -bottom-15 -mt-15 ">
+    <div className="relative w-full  flex justify-center align-center  p-5   -bottom-15 -mt-15 ">
       <div
         className="content md:p-10 lg:p-22   bg-[#002329] rounded-2xl shadow-[0px_0px_90px_9px_rgba(0,_0,_0,_0.1)]"
         id="contact"
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
           {/* Right Section (Form) */}
           <div className="w-full h-full  p-10">
             <p className="text-xl mb-2 xs:text-2xl sm:text-2xl md:text-[38px] font-semibold text-white lg:hidden text-center">
-              Vamos discutir o seu Projecto
+              Deixe a Sua Mensagem
             </p>
             <Form />
             <div className="w-full flex justify-center mt-5 max-lg:text-center max-md:mb-4">
@@ -69,4 +69,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default ContactSection;

@@ -10,7 +10,7 @@ const WorkTogether = () => {
         <p className="text-[#A5ACB5] text-xs sm:text-lg font-normal text-center pb-8">
           Estou sempre aberto a discutir novos projetos e ideias criativas. Vamos nos conectar e construir algo incrível juntos.
         </p>
-         <Button className="mt-5 md:mt-12.5 md:py-3 md:px-6  max-md:mx-auto max-md:mb-5"><a href="https://www.linkedin.com/in/pedro-vasco-939342287/" target="_blank" rel="noopener noreferrer">Vamos trabalhar juntos 
+         <Button className="mt-5 md:mt-12.5 md:py-3 md:px-6  max-md:mx-auto max-md:mb-5"><a href="/contact"  rel="noopener noreferrer">Vamos trabalhar juntos 
          </a></Button>
                
       </div>

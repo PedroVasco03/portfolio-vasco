@@ -1,3 +1,4 @@
+import Profile from "@/components/profile/Profile";
 import { redirect } from "next/navigation";
 
 const isMaintenance = process.env.NEXT_PUBLIC_MAINTENANCE === "true";
@@ -6,9 +7,9 @@ const About = () =>{
         redirect("/dev");
       }else{
     return(
-        <>
-            <h1>About me --- Page</h1>
-        </>
+        <section>
+            <Profile/>
+        </section>
     )
 }
 }

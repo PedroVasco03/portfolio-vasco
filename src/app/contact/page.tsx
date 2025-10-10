@@ -1,3 +1,4 @@
+import ContactSection from "@/components/contact/Contact";
 import { redirect } from "next/navigation";
 
 const isMaintenance = process.env.NEXT_PUBLIC_MAINTENANCE === "true";
@@ -7,9 +8,9 @@ const Contact = () => {
         redirect("/dev");
       }else{
     return(
-        <>
-            <h1>Pagina de contacto</h1>
-        </>
+        <section className="section container flex items-center justify-center">
+            <ContactSection/>
+        </section>
     )
 }
 }

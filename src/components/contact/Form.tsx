@@ -46,7 +46,7 @@ const Form: React.FC = () => {
 
   return (
     <div>
-      <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal text-gray-400">
+      <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal mb-8 text-gray-400">
         Estou sempre aberto a discutir novos projetos e ideias criativas. 
         Deixe sua mensagem vamos construir algo incrível juntos.
       </p>
@@ -65,7 +65,7 @@ const Form: React.FC = () => {
             required
             name="email"
           />
-
+  
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
               type="text"

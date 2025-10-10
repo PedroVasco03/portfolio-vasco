@@ -46,7 +46,7 @@ const NavBar = () => {
                         Inicio
                     </Link>
                     <Link href="/projects" className={pathname === "/projects" ? "text-[#5CF28E]" : "text-[#A8BFC0] hover:text-[#5CF28E]"+ " link"}  onClick={() => setOpen(false)}>
-                        Projetos
+                        Projectos
                     </Link>
                     <Link href="/contact" className={pathname === "/contact" ? "text-[#5CF28E]" : "text-[#A8BFC0] hover:text-[#5CF28E]"+ " link"}  onClick={() => setOpen(false)}>
                         Contactos

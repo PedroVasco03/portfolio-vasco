@@ -22,7 +22,7 @@ const socialIcons: SocialItem[] = [
 
 const SocialMedia: React.FC = () => {
   return (
-    <div className="flex gap-3 justify-center lg:justify-start">
+    <div className="flex gap-3 justify-center lg:justify-start ">
       {socialIcons.map((item, index) => {
         const Icon = item.icon;
         return (
@@ -33,7 +33,7 @@ const SocialMedia: React.FC = () => {
             rel="noopener noreferrer"
             className="text-[#5CF28E] hover:bg-[#5CF28E] p-2 pt-3 xs:p-2.5 xs:pt-3.75 sm:pt-4 md:pt-5 sm:p-3 md:p-3.75 hover:text-[#00191E] rounded-md transition-colors duration-200 flex items-center justify-center"
           >
-            <Icon size={20} className="aspect-square" />
+            <Icon  className=" text-xl w-4.5 aspect-square" />
           </a>
         );
       })}
