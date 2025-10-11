@@ -154,7 +154,7 @@ body {
 
   .navB-links.active {
     z-index: 99;
-    transform: translateY(91px);
+    transform: translateY(81px);
   }
 
   .navB-links .link{
@@ -168,7 +168,7 @@ body {
 
 /* HERO */
 .hero {
-  margin-top: -50px; /* compensar navbar */
+  margin-top: -40px; /* compensar navbar */
   position: relative;
   box-sizing: border-box;
   width: 100%;
